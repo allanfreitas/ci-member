@@ -43,7 +43,7 @@ code {
 </head>
 <body>
 
-<h1>Welcome to CodeIgniter!</h1>
+<h1>Membership System</h1>
 
 <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
@@ -55,6 +55,7 @@ code {
 
 <p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 
+<p>The membership system can be viewed <?php echo anchor('admin/main', 'here'); ?>
 
 <p><br />Page rendered in {elapsed_time} seconds</p>
 
